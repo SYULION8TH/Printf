@@ -1,0 +1,43 @@
+<html><!doctype html>
+<html>	
+<html lang="kr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport conten="width=divice-width, initial-scale=1.0">
+		<title>자기소개</title>
+		<style type="text/css">
+		header {
+			text-align:center; 
+			font-size: 30px;
+			font-style: italic;}
+			footer { text-align:center;
+    font-size: 30px;
+    } 
+	nav{ text-align: center
+	;font-size: 30px;}
+	section{ text-align: center
+	font-size: 30px;}
+	article{text-align: center
+	;font-size: 30px;}
+	section{text-align: center
+	;font-size: 30px;}
+	</style> 
+
+    </head>
+	<body>
+		<header>
+			<p>최종수</p>
+		</header>
+		<nav>
+			<p>경영정보학과 20 학번</p>
+		</nav>
+		<section>
+			<p>생일 2001/03/29</p>
+			<article>
+				<p>잘 부탁 드립니다. 좀 어럽긴 하네요,,</p>
+			</article>
+				</section>
+		<footer>
+			<p>감사합니다!</p>
+		</footer>
+	</body>
