@@ -1,18 +1,18 @@
 ## git reset vs git revert 명령어 비교하기
 
-- reset과 revert
-** 파일을 삭제했거나 제대로 벼합이 안됐을 때 이전버전으로 돌아가야할 때 사용하는 깃 명령어
-<차이점은 -로 표시>
-reset
+-  reset과 revert
+- ** 파일을 삭제했거나 제대로 벼합이 안됐을 때 이전버전으로 돌아가야할 때 사용하는 깃 명령어
+- <차이점은 -로 표시>
+- reset
     : 특정 커밋으로 되돌아갈 수 있다. 되돌린 버전 이후의 버전들은 히스토리에서 삭제된다.
     - commit 이력이 사라진다.
     - remote repository까지 컨트롤 할 수 없다. push 할 수 없다.
 
-revert 
+- revert 
     : reset처럼 특정 버전으로 되돌아갈 수 있지만, 되돌린 버전 이후의 버전들의 이력은 남아있다.
     - commit 이력이 그대로 유지된다. 
     - 원격 저장소에 push를 한 상태에서 되돌릴 수 있다.( revert명령어가 먼 과거의 버전으로 돌아갈 수 있다.)
-<명령어 정리>
+- <명령어 정리>
 1. get checkout
 
     - get checkout . : working directory 에서 수정한 모든 파일 (git add이전)을 현재 버전으로 되돌리기
