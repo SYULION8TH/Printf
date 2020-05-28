@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Carousel Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-warning">
+    <a class="navbar-brand" href="#">자가진단 서비스</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">홈 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">로그인</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">회원가입</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<main role="main">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>이제는 '셀프케어 시대'</h1>
+            <p>약사나 의사들이 주는 처방을 수동적으로만 받아 왔던 ‘환자’들도 약에 대한 정확한 정보와 본인에게 잘 맞는지에 대한 조언을 원하는 '셀프케어' 시대에 필요한 자가진단 서비스. </p>
+            <p><a class="btn btn-lg btn-warning" href="#" role="button">자가진단서비스 이용하기</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>이제는 '100세 시대'</h1>
+            <p>만성 질환이 증가하고 있는 만큼 이이 대한 예방 및 관리에 더 많은 관심이 필요합니다.</p>
+            <p><a class="btn btn-lg btn-warning" href="#" role="button">질병 알아보기</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>병원보다는 약국에서</h1>
+            <p>영양 관리를 위한 멀티비타민, 흉터 치료제, 치주질환 치료제 등을 병원을 찾지 않고 약국에서 구매하는 경향이 높아짐에 따라 복약지도의 중요성이 더욱 강조되고 있습니다.</p>
+            <p><a class="btn btn-lg btn-warning" href="#" role="button">의약품 알아보기</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img width="150" height="150"src="https://image.flaticon.com/icons/png/512/1536/1536373.png">
+        <h2>질병</h2>
+        <p>질병 이름, 증상, 부작용으로 질병에 대해 알아볼 수 있습니다. 연령별 발병률 높은 질병, 성별에 따라 발병률이 높은 질병 등 자신이 더욱 더 조심해야할 질병에 대해 알아보세요.</p>
+        <p><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+       <img width="150" height="150" src="data:image/png;base64,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">
+        <h2>의약품</h2>
+        <p>약의 이름, 부작용 등으로 약에 대해 자세히 알아볼 수 있습니다. 약의 부작용, 복용법, 성분, 피해야할 조합을 안내해드립니다.<br><br></p>
+        <p><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img width="150" height="150" src="https://cdn.icon-icons.com/icons2/1674/PNG/512/persondone_110958.png">
+        <h2>내 건강 바로 알기</h2>
+        <p>최근에 받은 처방전과 건강검진 결과표가 있으시면 그것을 분석해드립니다. 결과에 따른 복용하면 좋을 약과 예방법을 안내해드립니다.<br><br></p>
+        <p><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">젊은 당뇨 <span class="text-muted"> 젊은 사람들에게서 유독 도드라지게 나타나 붙여진 이름, 젊은 당뇨 </span></h2>
+        <p class="lead">국내 당뇨병 환자가 계속 늘고 있고, 앞으로도 많아질 전망이다. 특히 젊은 환자가 늘고 있는데 국내 30세 이상 성인 7명 중 1명은 당뇨병 환자다.  그중 30·40대 환자가 100만명 육박했다고 한다.</p>
+      </div>
+      <div class="col-md-5">
+       <img width="550" height="380"src="https://t1.daumcdn.net/cfile/tistory/993C51335AD7FBBB0D">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">포스파티딜세린 <span class="text-muted">섭취 후 계산 속도가 20% 빨라졌다는 연구 발표</span></h2>
+        <p class="lead">연구에 따르면 하루 400mg의 포스파티딜세린을 복용한 사람들의 계산 속도가 20% 향상되었다고 합니다. 뿐만 아니라 오류도 33% 적었다는 놀라운 결과가 발표되었습니다.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img width="450" src="https://t1.daumcdn.net/cfile/tistory/992F3D375E47B72D17">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">내 근처 병원찾기 <span class="text-muted">근처 병원이 어디에 있을까? 지금 대기하는 사람은 많나?</span></h2>
+        <p class="lead">지금 나의 근처 병원을 알려드립니다. 병원 진료시간, 전화번호, 지금 대기자수를 알려드리고 바로 에약하기 서비스를 이용하실 수 있습니다.</p>
+      </div>
+      <div class="col-md-5">
+        <img width="440" src="https://previews.123rf.com/images/andreypopov/andreypopov1611/andreypopov161100294/66942964-gps%EC%A7%80%EB%8F%84-%EB%AA%A8%ED%98%95.jpg">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script></body>
+</html>
